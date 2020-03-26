@@ -37,8 +37,8 @@
     NSString *country = dictionary[@"country"];
     NSDictionary *currentInfo = dictionary[@"current"];
     
-    KLSWeather *weather = [[CHWeather alloc] initWithDictionary:currentInfo[@"weather"]];
-    KLSPollution *pollution = [[CHPollution alloc] initWithDictionary:currentInfo[@"pollution"]];
+    CHWeather *weather = [[CHWeather alloc] initWithDictionary:currentInfo[@"weather"]];
+    CHPollution *pollution = [[CHPollution alloc] initWithDictionary:currentInfo[@"pollution"]];
     
     return [self initWithCity:city state:state country:country weather:weather pollution:pollution];
 }

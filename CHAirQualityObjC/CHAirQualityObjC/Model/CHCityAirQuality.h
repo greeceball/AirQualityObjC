@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@class KLSWeather;
-@class KLSPollution;
+@class CHWeather;
+@class CHPollution;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -18,14 +18,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readonly) NSString *city;
 @property (nonatomic, copy, readonly) NSString *state;
 @property (nonatomic, copy, readonly) NSString *country;
-@property (nonatomic, copy, readonly) KLSWeather *weather;
-@property (nonatomic, copy, readonly) KLSPollution *pollution;
+@property (nonatomic, copy, readonly) CHWeather *weather;
+@property (nonatomic, copy, readonly) CHPollution *pollution;
 
 -(instancetype)initWithCity:(NSString *)city
                       state:(NSString *)state
                     country:(NSString *)country
-                    weather:(KLSWeather *)weather
-                  pollution:(KLSPollution *)pollution;
+                    weather:(CHWeather *)weather
+                  pollution:(CHPollution *)pollution;
 
 @end
 
