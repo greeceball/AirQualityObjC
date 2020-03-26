@@ -13,6 +13,8 @@
 		347FD949242C451800A6ED46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347FD948242C451800A6ED46 /* Assets.xcassets */; };
 		347FD94C242C451800A6ED46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347FD94A242C451800A6ED46 /* LaunchScreen.storyboard */; };
 		347FD95C242C463400A6ED46 /* CHCityAirQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 347FD95B242C463400A6ED46 /* CHCityAirQuality.m */; };
+		347FD95F242C4A6D00A6ED46 /* CHWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 347FD95E242C4A6D00A6ED46 /* CHWeather.m */; };
+		347FD962242C4A8200A6ED46 /* CHPollution.m in Sources */ = {isa = PBXBuildFile; fileRef = 347FD961242C4A8200A6ED46 /* CHPollution.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		347FD959242C463400A6ED46 /* CHAirQualityObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CHAirQualityObjC-Bridging-Header.h"; sourceTree = "<group>"; };
 		347FD95A242C463400A6ED46 /* CHCityAirQuality.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHCityAirQuality.h; sourceTree = "<group>"; };
 		347FD95B242C463400A6ED46 /* CHCityAirQuality.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHCityAirQuality.m; sourceTree = "<group>"; };
+		347FD95D242C4A6D00A6ED46 /* CHWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHWeather.h; sourceTree = "<group>"; };
+		347FD95E242C4A6D00A6ED46 /* CHWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHWeather.m; sourceTree = "<group>"; };
+		347FD960242C4A8200A6ED46 /* CHPollution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHPollution.h; sourceTree = "<group>"; };
+		347FD961242C4A8200A6ED46 /* CHPollution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHPollution.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +88,13 @@
 		347FD954242C457100A6ED46 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				347FD959242C463400A6ED46 /* CHAirQualityObjC-Bridging-Header.h */,
 				347FD95A242C463400A6ED46 /* CHCityAirQuality.h */,
 				347FD95B242C463400A6ED46 /* CHCityAirQuality.m */,
-				347FD959242C463400A6ED46 /* CHAirQualityObjC-Bridging-Header.h */,
+				347FD95D242C4A6D00A6ED46 /* CHWeather.h */,
+				347FD95E242C4A6D00A6ED46 /* CHWeather.m */,
+				347FD960242C4A8200A6ED46 /* CHPollution.h */,
+				347FD961242C4A8200A6ED46 /* CHPollution.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -145,6 +155,7 @@
 		347FD934242C451600A6ED46 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CH;
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Colby_Harris;
@@ -192,7 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				347FD940242C451600A6ED46 /* AppDelegate.swift in Sources */,
+				347FD95F242C4A6D00A6ED46 /* CHWeather.m in Sources */,
 				347FD942242C451600A6ED46 /* SceneDelegate.swift in Sources */,
+				347FD962242C4A8200A6ED46 /* CHPollution.m in Sources */,
 				347FD95C242C463400A6ED46 /* CHCityAirQuality.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
