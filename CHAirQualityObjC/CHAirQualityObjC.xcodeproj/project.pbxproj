@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		347FD940242C451600A6ED46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347FD93F242C451600A6ED46 /* AppDelegate.swift */; };
+		347FD942242C451600A6ED46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347FD941242C451600A6ED46 /* SceneDelegate.swift */; };
+		347FD947242C451600A6ED46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347FD945242C451600A6ED46 /* Main.storyboard */; };
+		347FD949242C451800A6ED46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347FD948242C451800A6ED46 /* Assets.xcassets */; };
+		347FD94C242C451800A6ED46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347FD94A242C451800A6ED46 /* LaunchScreen.storyboard */; };
+		347FD95C242C463400A6ED46 /* CHCityAirQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 347FD95B242C463400A6ED46 /* CHCityAirQuality.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		347FD93C242C451600A6ED46 /* CHAirQualityObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHAirQualityObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		347FD93F242C451600A6ED46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		347FD941242C451600A6ED46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		347FD946242C451600A6ED46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		347FD948242C451800A6ED46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		347FD94B242C451800A6ED46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		347FD94D242C451800A6ED46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347FD959242C463400A6ED46 /* CHAirQualityObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CHAirQualityObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		347FD95A242C463400A6ED46 /* CHCityAirQuality.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHCityAirQuality.h; sourceTree = "<group>"; };
+		347FD95B242C463400A6ED46 /* CHCityAirQuality.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHCityAirQuality.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		347FD939242C451600A6ED46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		347FD933242C451600A6ED46 = {
+			isa = PBXGroup;
+			children = (
+				347FD93E242C451600A6ED46 /* CHAirQualityObjC */,
+				347FD93D242C451600A6ED46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		347FD93D242C451600A6ED46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				347FD93C242C451600A6ED46 /* CHAirQualityObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		347FD93E242C451600A6ED46 /* CHAirQualityObjC */ = {
+			isa = PBXGroup;
+			children = (
+				347FD956242C459F00A6ED46 /* Controllers */,
+				347FD955242C459600A6ED46 /* View */,
+				347FD954242C457100A6ED46 /* Model */,
+				347FD945242C451600A6ED46 /* Main.storyboard */,
+				347FD953242C454700A6ED46 /* Resources */,
+			);
+			path = CHAirQualityObjC;
+			sourceTree = "<group>";
+		};
+		347FD953242C454700A6ED46 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				347FD93F242C451600A6ED46 /* AppDelegate.swift */,
+				347FD941242C451600A6ED46 /* SceneDelegate.swift */,
+				347FD948242C451800A6ED46 /* Assets.xcassets */,
+				347FD94A242C451800A6ED46 /* LaunchScreen.storyboard */,
+				347FD94D242C451800A6ED46 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		347FD954242C457100A6ED46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				347FD95A242C463400A6ED46 /* CHCityAirQuality.h */,
+				347FD95B242C463400A6ED46 /* CHCityAirQuality.m */,
+				347FD959242C463400A6ED46 /* CHAirQualityObjC-Bridging-Header.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		347FD955242C459600A6ED46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		347FD956242C459F00A6ED46 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				347FD958242C45B100A6ED46 /* ModelControllers */,
+				347FD957242C45A700A6ED46 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		347FD957242C45A700A6ED46 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		347FD958242C45B100A6ED46 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		347FD93B242C451600A6ED46 /* CHAirQualityObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347FD950242C451800A6ED46 /* Build configuration list for PBXNativeTarget "CHAirQualityObjC" */;
+			buildPhases = (
+				347FD938242C451600A6ED46 /* Sources */,
+				347FD939242C451600A6ED46 /* Frameworks */,
+				347FD93A242C451600A6ED46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHAirQualityObjC;
+			productName = CHAirQualityObjC;
+			productReference = 347FD93C242C451600A6ED46 /* CHAirQualityObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		347FD934242C451600A6ED46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Colby_Harris;
+				TargetAttributes = {
+					347FD93B242C451600A6ED46 = {
+						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = 347FD937242C451600A6ED46 /* Build configuration list for PBXProject "CHAirQualityObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 347FD933242C451600A6ED46;
+			productRefGroup = 347FD93D242C451600A6ED46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				347FD93B242C451600A6ED46 /* CHAirQualityObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		347FD93A242C451600A6ED46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347FD94C242C451800A6ED46 /* LaunchScreen.storyboard in Resources */,
+				347FD949242C451800A6ED46 /* Assets.xcassets in Resources */,
+				347FD947242C451600A6ED46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		347FD938242C451600A6ED46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347FD940242C451600A6ED46 /* AppDelegate.swift in Sources */,
+				347FD942242C451600A6ED46 /* SceneDelegate.swift in Sources */,
+				347FD95C242C463400A6ED46 /* CHCityAirQuality.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		347FD945242C451600A6ED46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				347FD946242C451600A6ED46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		347FD94A242C451800A6ED46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				347FD94B242C451800A6ED46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		347FD94E242C451800A6ED46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		347FD94F242C451800A6ED46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		347FD951242C451800A6ED46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJLVU28L56;
+				INFOPLIST_FILE = CHAirQualityObjC/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comColby-Harris.CHAirQualityObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CHAirQualityObjC/Model/CHAirQualityObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		347FD952242C451800A6ED46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJLVU28L56;
+				INFOPLIST_FILE = CHAirQualityObjC/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comColby-Harris.CHAirQualityObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CHAirQualityObjC/Model/CHAirQualityObjC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		347FD937242C451600A6ED46 /* Build configuration list for PBXProject "CHAirQualityObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347FD94E242C451800A6ED46 /* Debug */,
+				347FD94F242C451800A6ED46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347FD950242C451800A6ED46 /* Build configuration list for PBXNativeTarget "CHAirQualityObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347FD951242C451800A6ED46 /* Debug */,
+				347FD952242C451800A6ED46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 347FD934242C451600A6ED46 /* Project object */;
+}
